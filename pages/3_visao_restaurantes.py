@@ -107,7 +107,7 @@ df1 = dataProcessing(df)
 #=======================================
 st.header('Marketplace - Visao Restaurantes')
 
-image_path = 'C:\\Users\\IgorMagro\\Documents\\istockphoto-1252769165-612x612.jpg'
+image_path = '../foto.jpg'
 image = Image.open( image_path )
 st.sidebar.image (image, width=120)
 st.sidebar.markdown('# Cury company')
