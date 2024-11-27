@@ -13,7 +13,7 @@ import plotly.express as px
 import folium
 import numpy as np
 from streamlit_folium import folium_static
-df = pd.read_csv('C:\\Users\\IgorMagro\\Downloads\\train.csv')
+df = pd.read_csv('../dataset/treino.csv')
 st.set_page_config(
     page_title='Visão Restaurantes',
     page_icon='🏠',

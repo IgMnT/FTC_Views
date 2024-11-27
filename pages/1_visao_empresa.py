@@ -93,7 +93,7 @@ def CountryMap(df1):
     return map
 
 # Importando o dataset
-df = pd.read_csv('C:\\Users\\IgorMagro\\Downloads\\train.csv')
+df = pd.read_csv('../dataset/treino.csv')
 
 # Limpando os dados
 df1 = dataProcessing(df)
